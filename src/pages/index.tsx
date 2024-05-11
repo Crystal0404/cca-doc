@@ -20,7 +20,9 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/">
-            Docusaurus Tutorial - 5min ⏱️
+            <Translate id="homepage.header.rtd">
+              阅读文档
+            </Translate>
           </Link>
         </div>
       </div>
