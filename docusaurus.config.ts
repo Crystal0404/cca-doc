@@ -17,7 +17,6 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Crystal0404', // Usually your GitHub org/user name.
   projectName: 'cca-doc', // Usually your repo name.
-  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
