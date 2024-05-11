@@ -3,9 +3,9 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Crystal Carpet Addition',
+  tagline: 'Welcome to the documentation for the CCA',
+  favicon: 'img/cca-icon.png',
 
   // Set the production url of your site here
   url: 'https://crystal0404.github.io',
@@ -121,7 +121,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Crystal0404, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
