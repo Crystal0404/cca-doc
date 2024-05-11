@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Crystal Carpet Addition',
-  tagline: 'Welcome to the documentation for the CCA',
+  tagline: '欢迎来到CCA的文档',
   favicon: 'img/cca-icon.png',
 
   // Set the production url of your site here
@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans', 'en']
   },
 
   presets: [
@@ -55,7 +55,7 @@ const config: Config = {
       title: 'Crystal Carpet Addition',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/cca-icon.png',
       },
       items: [
         {
@@ -68,6 +68,10 @@ const config: Config = {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right'
         },
       ],
     },
