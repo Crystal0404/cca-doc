@@ -35,10 +35,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false,
         theme: {
@@ -54,20 +50,14 @@ const config: Config = {
     navbar: {
       title: 'Crystal Carpet Addition',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'CrystalCarpetAddition Logo',
         src: 'img/cca-icon.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          label: '文档',
         },
         {
           type: 'localeDropdown',
@@ -82,8 +72,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: '文档',
+              to: '/docs',
             },
           ],
         },
