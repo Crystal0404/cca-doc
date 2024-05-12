@@ -63,6 +63,12 @@ const config: Config = {
           type: 'localeDropdown',
           position: 'right'
         },
+        {
+          href: 'https://github.com/Crystal0404/CrystalCarpetAddition',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
       ],
     },
     footer: {
