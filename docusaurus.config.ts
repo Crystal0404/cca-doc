@@ -86,7 +86,7 @@ const config: Config = {
           items: [
             {
               label: 'Fabric Carpet',
-              href: 'https://github.com/gnembon/fabric-carpet',
+              to: 'https://github.com/gnembon/fabric-carpet',
             },
             {
               label: 'Docusaurus',

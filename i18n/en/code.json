@@ -291,5 +291,23 @@
   "theme.unlistedContent.message": {
     "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
     "description": "The unlisted content banner message"
+  },
+  "homepage.feature.carpet.message": {
+    "message": "Carpet Expansion"
+  },
+  "homepage.feature.carpet.description": {
+    "message": "Works with Fabric Carpet to provide extra fun Carpet style rules"
+  },
+  "homepage.feature.vanilla.message": {
+    "message": "Vanilla"
+  },
+  "homepage.feature.vanilla.description": {
+    "message": "Crystal Carpet Addition never changes the vanilla behavior unless explicitly configured by the user. Keep Minecraft vanilla"
+  },
+  "homepage.feature.compatible.message": {
+    "message": "Compatible"
+  },
+  "homepage.feature.compatible.description": {
+    "message": "Hardly any conflict with other mods"
   }
 }
