@@ -25,7 +25,7 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
+    defaultLocale: 'en',
     locales: ['zh-Hans', 'en']
   },
 
@@ -69,20 +69,37 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '模组下载',
           items: [
             {
-              label: '文档',
-              to: '/docs',
+              label: 'Modrinth',
+              to: 'https://modrinth.com/mod/crystalcarpetaddition',
             },
+            {
+              label: 'Github',
+              to: 'https://github.com/Crystal0404/CrystalCarpetAddition/releases'
+            }
           ],
         },
         {
-          title: 'More',
+          title: '相关项目',
+          items: [
+            {
+              label: 'Fabric Carpet',
+              href: 'https://github.com/gnembon/fabric-carpet',
+            },
+            {
+              label: 'Docusaurus',
+              to: 'https://docusaurus.io/'
+            }
+          ],
+        },
+        {
+          title: '网站源码',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Crystal0404/CrystalCarpetAddition',
+              to: 'https://github.com/Crystal0404/cca-doc'
             },
           ],
         },
