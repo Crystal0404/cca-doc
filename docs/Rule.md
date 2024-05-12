@@ -89,7 +89,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 
 ## 创造工具
 
-### 潜影盒红石信号输出拓展ShulkerBoxPowerOutputExpansion)
+### 潜影盒红石信号输出拓展(ShulkerBoxPowerOutputExpansion)
 
 修改比较器检测潜影盒输出信号强度的逻辑
 
