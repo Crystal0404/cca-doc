@@ -66,8 +66,7 @@ const config: Config = {
         {
           href: 'https://github.com/Crystal0404/CrystalCarpetAddition',
           position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
+          label: 'GitHub'
         },
       ],
     },
