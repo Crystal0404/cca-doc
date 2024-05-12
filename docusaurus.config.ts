@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Crystal Carpet Addition',
-  tagline: '欢迎来到CCA的文档',
+  tagline: '',
   favicon: 'img/cca-icon.png',
 
   // Set the production url of your site here

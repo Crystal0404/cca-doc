@@ -2,6 +2,9 @@
   "homepage.header.rtd": {
     "message": "Read the documentation"
   },
+  "homepage.header.subtitle": {
+    "message": "A Carpet mod (fabric-carpet) extension, includes some interesting extensions"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
