@@ -7,6 +7,8 @@ slug: /
 
 欢迎来到[Crystal Carpet Addition](https://modrinth.com/mod/crystalcarpetaddition)的官方文档
 
+操作指令与Carpet几乎相同, 只需将`/carpet`更换为`/cca`
+
 ## 依赖库
 
 | 依赖         | 类型 | 环境        | 链接                                                                                                 |
