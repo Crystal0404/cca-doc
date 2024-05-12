@@ -25,7 +25,7 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
+    defaultLocale: 'en',
     locales: ['zh-Hans', 'en']
   },
 
@@ -58,6 +58,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           label: '文档',
+        },
+        {
+          to: 'eol',
+          position: 'left',
+          label: '生命周期终点'
         },
         {
           type: 'localeDropdown',

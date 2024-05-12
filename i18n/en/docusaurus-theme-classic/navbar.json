@@ -10,5 +10,13 @@
   "item.label.文档": {
     "message": "Documentation",
     "description": "Navbar item with label 文档"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.生命周期终点": {
+    "message": "End of life",
+    "description": "Navbar item with label 生命周期终点"
   }
 }
