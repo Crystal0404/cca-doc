@@ -120,7 +120,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 > [!Caution]
 > CrystalCarpetAddition1.1.x生成的配置json与1.0.x的不兼容, 请删除后重新配置!
 
-用于实现获取客户端模组信息和一些其他功能(例如mod黑名单), 它有一个接口给其他模组使用. [使用文档](https://github.com/Crystal0404/CrystalCarpetAddition/wiki/CCANetworkProtocol)
+用于实现获取客户端模组信息和一些其他功能(例如mod黑名单), 它有一个接口给其他模组使用. [使用文档](https://crystal0404.github.io/cca-doc/en/docs/CCANetworkProtocol)
 
 - 分类: ```网络```
 - 类型: ```布尔值```
