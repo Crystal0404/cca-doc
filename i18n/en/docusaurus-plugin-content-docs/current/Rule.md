@@ -74,9 +74,21 @@ Makes bats no longer spawn.
 - Validators: Strict(Case-insensitive)
 
 
-### RevertOldVersionRaid
+### ReIntroduceOldVersionRaid
 
 I can't afford to lose my money printing machine
+
+- Categories: ```MC Tweaks```
+- Type: ```Boolean```
+- Default value: ```false```
+- Options: ```flase``` ```true```
+- Validators: Strict(Case-insensitive)
+
+### ReIntroduceOldVersionWitchLootTable
+
+Restored loot dropped after a witch's death to be the same as before Minecraft-1.21
+
+It is recommended to use it in conjunction with the "ReIntroduceOldVersionRaid"
 
 - Categories: ```MC Tweaks```
 - Type: ```Boolean```

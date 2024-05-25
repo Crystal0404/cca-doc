@@ -75,7 +75,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
 
-### 恢复旧版袭击(RevertOldVersionRaid)
+### 重新引入旧版袭击(ReIntroduceOldVersionRaid)
 
 我不能失去我的印钞机
 
@@ -85,6 +85,18 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
 
+
+### 重新引入旧版女巫战利品表(ReIntroduceOldVersionWitchLootTable)
+
+使女巫死亡后掉落的战利品恢复到与Minecraft-1.21版本之前一致
+
+建议与"重新引入旧版袭击"一起使用
+
+- 分类: ```MC修改```
+- 类型: ```布尔值```
+- 默认值: ```false```
+- 参考值: ```flase``` ```true```
+- 验证器: 严格(不区分大小写)
 ---
 
 ## 创造工具
