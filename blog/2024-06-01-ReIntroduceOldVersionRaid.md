@@ -156,4 +156,4 @@ public boolean start(ServerPlayerEntity serverPlayerEntity) {
     }
 ```
 
-以上就是这个规则涉及的全部细节了...
+写了一大堆, 发现好像有点偏题了, 不过这个功能的思路应该都在这了. 希望这一大堆分析可以给大家带来一点收获XD
