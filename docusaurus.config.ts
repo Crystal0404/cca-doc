@@ -36,7 +36,11 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
         },
-        blog: false,
+        blog: {
+           blogTitle: 'CrystalCarpetAddition\'s blog!',
+           blogDescription: 'Hello World!',
+           postsPerPage: 10,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -58,6 +62,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           label: '文档',
+        },
+        {
+          to: 'blog',
+          position: 'left',
+          label: 'Blog'
         },
         {
           to: 'eol',
