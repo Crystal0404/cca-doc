@@ -1,12 +1,12 @@
 ---
-title: 重新引入旧版袭击规则开发细节
+title: 重新引入旧版袭击杂谈
 authors:
   - name: Crystal0404
     url: https://github.com/Crystal0404
     image_url: https://github.com/Crystal0404.png
 date: 2024/06/01/20:00
 ---
-1.21新的袭击机制Mojang设计的非常糟糕...所幸我们可以通过制作Mod来恢复曾经的袭击XD
+不知道写了些什么乱七八糟的, 删了有点可惜, 就随便找个地方放着了(
 <!-- truncate -->
 
 **特别注意, 本文中出现的MC源码是基于Yarn的映射, 开源协议是CC-1.0**
@@ -156,4 +156,3 @@ public boolean start(ServerPlayerEntity serverPlayerEntity) {
     }
 ```
 
-写了一大堆, 发现好像有点偏题了, 不过这个功能的思路应该都在这了. 希望这一大堆分析可以给大家带来一点收获XD
