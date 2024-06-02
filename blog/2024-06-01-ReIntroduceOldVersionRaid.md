@@ -111,7 +111,7 @@ public void onDeath(DamageSource damageSource) {
         Raid raid;
         ServerWorld serverWorld;
         ServerPlayerEntity serverPlayerEntity;
-        // 开启袭击的条件, 第一个instanceof是判断是不是ServerPlayerEntity, 然后是判断是不是旁观者, 是不是和平, 是不是靠近村庄, 有没有袭击(如果有就是判断袭击等级是不是大于5, 大于5就不会继续开启袭击)
+        // 开启袭击的条件, 第一个instanceof是判断是不是ServerPlayerEntity, 然后是判断是不是旁观者, 是不是和平, 是不是靠近村庄, 有没有袭击(如果有就是判断不详之兆等级是不是大于5, 大于5就不会继续开启袭击)
         // 我们需要修改这个判断, 因为我们不希望开启规则后把不详征兆转化为袭击之兆, 通过mixin, 让这个检测始终无法通过
         // 也就意味着依赖这些逻辑的mod, 可能会无法正常工作, 这是不可避免的(不会引起崩溃)
         if (entity instanceof ServerPlayerEntity && !(serverPlayerEntity = (ServerPlayerEntity)entity).isSpectator() && (serverWorld = serverPlayerEntity.getServerWorld()).getDifficulty() != Difficulty.PEACEFUL && serverWorld.isNearOccupiedPointOfInterest(serverPlayerEntity.getBlockPos()) && ((raid = serverWorld.getRaidAt(serverPlayerEntity.getBlockPos())) == null || raid.getBadOmenLevel() < raid.getMaxAcceptableBadOmenLevel())) {
