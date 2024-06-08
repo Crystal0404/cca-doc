@@ -14,39 +14,70 @@ sidebar_position: 2
 
 ## 它如何使用
 
+*旧版CCANetworkProtocol已弃用*
+
+**如果你在寻找旧版CCANetworkProtocol(CCA-v1.3.0之前)的文档, 它在[这里](https://crystal0404.github.io/cca-doc/docs/CCANetworkProtocol-Deprecated/)**
+
 在你服务器第一次启动后, 它会生成一个配置文件, 它的路径看起来是这样的`<YourServer>\config\CrystalCarpetAddition\CrystalCarpetAddition.json`
 
 里面的内容是这样的
 ```
 {
-  "BlackMap": {},
+  "Version": 1,
+  "BlackPackages": [],
   "PrintModList": false,
   "Kick": true
 }
 ```
 
-`BlackMap`是用来填写黑名单模组的, 填写方式是一个键值对, 键是mod的id(可以填写正则表达式), 值是版本谓词
+`Version`是配置文件版本号, 供内部识别使用, 你不需要修改它
 
-例如要禁用id为`abc`的所有大于1.0.0版本可以这么填写 -> `"BlackMap": {"abc": ">1.0.0"}`
+`BlackPackages`是一个数组, 用于填写你要禁用mod的id和用于识别的ClassValue
 
-也可以填写正则表达式, 例如禁用id含有`abc`三个字母的所有版本可以这么填写 -> `"BlackMap": {".*abc.*": "*"}`(*为通配符, 表示全部版本)
+格式为: `<modId>$<ClassValue>`, 它需要满足正则表达式`^(.{1,63}\$).+`
+
+例如需要禁用cca和tis-carpet, 你可以这么填写(只是一个例子, 不要禁用cca, 否则玩家会无法加入游戏)
+
+```
+"BlackPackages": [
+  "cca$crystal0404.crystalcarpetaddition.CrystalCarpetAdditionMod",
+  "carpet-tis-addition$carpettisaddition.CarpetTISAdditionMod"
+]
+```
 
 `PrintModList`, 设置为`true`会在控制台和日志中打印玩家的mod信息
 
 `Kick`, 设置为true, 如果客户端无法接收`CCANetworkProtocol`的数据包, 会被踢出服务器
 
 这是一个正确填写的例子
-```
+
+```json
 {
-  "BlackMap": {
-    "abc": ">=1.0.0",
-    ".*hello.*": "*"
-  },
+  "Version": 1,
+  "BlackPackages": [
+    "cca$crystal0404.crystalcarpetaddition.CrystalCarpetAdditionMod",
+    "carpet-tis-addition$carpettisaddition.CarpetTISAdditionMod"
+  ],
   "PrintModList": false,
   "Kick": true
 }
 ```
 **如果填写错误, 可能会造成游戏无法启动**
+
+## 如何寻找ClassValue
+*简单且绝大部分时刻有效的方法:*
+1. 将mod解压, 打开其中的 `fabric.mod.json`
+2. 找到键 `entrypoints`
+3. 从其中 `main`或者`client` 数组中随便挑选一个就可以了
+
+*上面方法不奏效:*
+1. 将mod解压
+2. 找到任意一个以 `.class`为拓展名的文件
+3. 复制文件完整的路径到记事本
+4. 删除与 `fabric.mod.json`同级和前面的路径的字符串
+5. 删除 `.class`
+6. 把所有的路径分割符合换成 `.`
+7. 如果没有按预期工作, 就换一个文件重复上述步骤
 
 ## 其它问题
 在1.20.2以下的群组服环境中, 代理会丢弃登录阶段的玩家信息, 这会导致CCA的数据包无法发送, 模组黑名单功能从而无法正常工作. 但是回调接口和打印客户端mod列表的功能(应该)是正常的.
@@ -64,7 +95,7 @@ sidebar_position: 2
 
 *示例:*
 ```java
-...
+//...
 import crystal0404.crystalcarpetaddition.api.CCANetorkProtocol.GetClientModMap;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.network.ServerPlayNetworkHandler;
@@ -85,7 +116,7 @@ public class getClientMod implements GetClientModMap {
 
 *示例:*
 ```java
-...
+//...
 import crystal0404.crystalcarpetaddition.api.CCANetorkProtocol.CCANetworkProtocolAPI;
 import net.fabricmc.api.DedicatedServerModInitializer;
 
