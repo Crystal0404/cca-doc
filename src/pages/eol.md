@@ -9,6 +9,7 @@
 | Minecraft 版本 | 支持至     |
 |--------------|---------|
 | 1.19.4       | ✔️ 长期支持 |
+| 1.20.5       | ✔️ 长期支持 |
 | 1.20.6       | ✔️ 长期支持 |
 
 ## 已结束支持的版本
@@ -21,4 +22,3 @@
 | 1.20.1         | [v1.2.2](https://modrinth.com/mod/crystalcarpetaddition/version/mc1.20.1-v1.2.2) | May 4, 2024 at 7:03 PM    |
 | 1.20.2, 1.20.3 | 未知                                                                               | 未知                        |
 | 1.20.4         | [v1.1.0](https://modrinth.com/mod/crystalcarpetaddition/version/mc1.20.4-v1.1.0) | April 5, 2024 at 5:28 PM  |
-| 1.20.5         | [v1.2.0](https://modrinth.com/mod/crystalcarpetaddition/version/mc1.20.5-v1.2.0) | April 25, 2024 at 5:48 PM |
