@@ -41,6 +41,18 @@ Protect your nether terrain from being destroyed by Enderman and prevent a large
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
+### GatewayCannotLoadingChunks
+
+After the entity passes through the gateway, the gateway does not loading chunks
+
+*So your Void trade can work at 1.21+ too : )*
+
+- Categories: ```MC Tweaks```
+- Type: ```Boolean```
+- Default value: ```false```
+- Options: ```flase``` ```true```
+- Validators: Strict(Case-insensitive)
+
 ### ItemShadowing
 Use the ItemStack code in section 1.16.5, You can watch this video for its purpose.
 
