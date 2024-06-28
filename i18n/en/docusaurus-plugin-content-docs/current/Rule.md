@@ -7,7 +7,17 @@ sidebar_position: 1
 
 ## MC Tweaks
 
-### CEnderPearlChunkLoading
+### AnvilCanCrushItemEntities `MC >= 1.20`
+
+Allows anvil dropped from a height to crush items
+
+- Categories: ```MC Tweaks```
+- Type: ```Boolean```
+- Default value: ```false```
+- Options: ```flase``` ```true```
+- Validators: Strict(Case-insensitive)
+
+### CEnderPearlChunkLoading `MC < 1.20.4`
 The enderPearlChunkLoading function of [Carpet-Extra](https://github.com/gnembon/carpet-extra) is not working, it is an alternative
 
 C has no special meaning, only for differentiation
@@ -20,7 +30,7 @@ C has no special meaning, only for differentiation
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### ComparatorIgnoresStateUpdatesFromBelow
+### ComparatorIgnoresStateUpdatesFromBelow `MC >= 1.20.4`
 
 When this option is turned on, the comparator ignores state updates from below
 (Means that opening the trap gate will not destroy the comparator)
@@ -41,7 +51,7 @@ Protect your nether terrain from being destroyed by Enderman and prevent a large
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### GatewayCannotLoadingChunks
+### GatewayCannotLoadingChunks `MC >= 1.21`
 
 After the entity passes through the gateway, the gateway does not loading chunks
 
@@ -86,9 +96,11 @@ Makes bats no longer spawn.
 - Validators: Strict(Case-insensitive)
 
 
-### ReIntroduceOldVersionRaid
+### ReIntroduceOldVersionRaid `MC >= 1.20.5`
 
 I can't afford to lose my money printing machine
+
+*Note: In `mc1.20.5 mc1.20.6`, you need to enable mc1.21 snapshots, this rule will work*
 
 - Categories: ```MC Tweaks```
 - Type: ```Boolean```
@@ -96,7 +108,7 @@ I can't afford to lose my money printing machine
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### ReIntroduceOldVersionWitchLootTable
+### ReIntroduceOldVersionWitchLootTable `MC >= 1.21`
 
 Restored loot dropped after a witch's death to be the same as before Minecraft-1.21
 
