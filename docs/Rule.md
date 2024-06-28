@@ -8,6 +8,7 @@ sidebar_position: 1
 ## MC调整
 
 ### 铁砧可以碾碎掉落物(AnvilCanCrushItemEntities)
+
 `MC >= 1.20`
 
 允许铁砧从高处掉落时可以碾碎掉落物
@@ -19,6 +20,7 @@ sidebar_position: 1
 - 验证器: 严格(不区分大小写)
 
 ### C珍珠加载(CEnderPearlChunkLoading)
+
 `MC < 1.20.4`
 
 移植并修复自[Carpet-Extra](https://github.com/gnembon/carpet-extra)的enderPearlChunkLoading
@@ -34,6 +36,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 验证器: 严格(不区分大小写)
 
 ### 比较器忽略来自下方的状态更新(ComparatorIgnoresStateUpdatesFromBelow)
+
 `MC >= 1.20.4`
 
 开启此选项后, 比较器会忽略来自下方的状态更新(意味着开启活板门不会破坏比较器)
@@ -55,6 +58,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 验证器: 严格(不区分大小写)
 
 ### 折跃门不会加载区块(GatewayCannotLoadingChunks)
+
 `MC >= 1.21`
 
 在实体穿越折跃门后, 折跃门不会加载区块
@@ -101,6 +105,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 验证器: 严格(不区分大小写)
 
 ### 重新引入旧版袭击(ReIntroduceOldVersionRaid)
+
 `MC >= 1.20.5`
 
 我不能失去我的印钞机
@@ -115,6 +120,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 
 
 ### 重新引入旧版女巫战利品表(ReIntroduceOldVersionWitchLootTable)
+
 `MC >= 1.21`
 
 使女巫死亡后掉落的战利品恢复到与Minecraft-1.21版本之前一致

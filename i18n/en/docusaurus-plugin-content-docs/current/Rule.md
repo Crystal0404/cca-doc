@@ -8,6 +8,7 @@ sidebar_position: 1
 ## MC Tweaks
 
 ### AnvilCanCrushItemEntities
+
 `MC >= 1.20`
 
 Allows anvil dropped from a height to crush items
@@ -18,7 +19,8 @@ Allows anvil dropped from a height to crush items
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### CEnderPearlChunkLoading 
+### CEnderPearlChunkLoading
+
 `MC < 1.20.4`
 
 The enderPearlChunkLoading function of [Carpet-Extra](https://github.com/gnembon/carpet-extra) is not working, it is an alternative
@@ -34,6 +36,7 @@ C has no special meaning, only for differentiation
 - Validators: Strict(Case-insensitive)
 
 ### ComparatorIgnoresStateUpdatesFromBelow
+
 `MC >= 1.20.4`
 
 When this option is turned on, the comparator ignores state updates from below
@@ -102,6 +105,7 @@ Makes bats no longer spawn.
 
 
 ### ReIntroduceOldVersionRaid
+
 `MC >= 1.20.5`
 
 I can't afford to lose my money printing machine
@@ -115,6 +119,7 @@ I can't afford to lose my money printing machine
 - Validators: Strict(Case-insensitive)
 
 ### ReIntroduceOldVersionWitchLootTable
+
 `MC >= 1.21`
 
 Restored loot dropped after a witch's death to be the same as before Minecraft-1.21
