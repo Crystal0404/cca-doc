@@ -3,6 +3,8 @@ sidebar_position: 1
 ---
 # Rule list
 
+**To enable the hidden setting, please refer to ["Hide Settings"](https://crystal0404.github.io/cca-doc/en/docs/HideSettings)**
+
 ---
 
 ## MC Tweaks
@@ -110,7 +112,7 @@ Makes bats no longer spawn.
 
 I can't afford to lose my money printing machine
 
-*Note: In `mc1.20.5 mc1.20.6`, you need to enable mc1.21 snapshots, this rule will work*
+*Note: In `mc1.20.5 mc1.20.6` it is a hidden rule, and 1.21 snapshot is enabled for this rule to work*
 
 - Categories: ```MC Tweaks```
 - Type: ```Boolean```

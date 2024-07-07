@@ -11,12 +11,12 @@ They are some Java system properties
 ---
 ## List Of Parameters
 
-| System properties                  | describe                  |
-|------------------------------------|---------------------------|
-| `-Dcca.disable.EasterEggs=true`    | Disable Easter eggs       |
-| `-Dcca.enable.debug=true`          | Print debug logs          |
-| `-Dcca.enable.network.debug=true`  | Print network debug logs  |
-| `-Dcca.enable.MagicSettings=true"` | Enable the magic settings |
+| System properties                 | describe                  |
+|-----------------------------------|---------------------------|
+| `-Dcca.disable.EasterEggs=true`   | Disable Easter eggs       |
+| `-Dcca.enable.debug=true`         | Print debug logs          |
+| `-Dcca.enable.network.debug=true` | Print network debug logs  |
+| `-Dcca.enable.MagicSettings=true` | Enable the magic settings |
 
 ---
 ## How To Use:
