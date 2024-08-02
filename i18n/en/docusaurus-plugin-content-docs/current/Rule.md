@@ -50,6 +50,18 @@ When this option is turned on, the comparator ignores state updates from below
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
+### EnderDragonPartCanUseEndPortal
+
+`MC >= 1.21`
+
+Allow ender dragon part to pass through end portal
+
+- Categories: ```MC Tweaks```
+- Type: ```Boolean```
+- Default value: ```false```
+- Options: ```flase``` ```true```
+- Validators: Strict(Case-insensitive)
+
 ### EndermanCannotPickUpBlocksInNether
 
 Protect your nether terrain from being destroyed by Enderman and prevent a large number of Endermen from not despawning after picking up blocks.
