@@ -77,6 +77,8 @@ Protect your nether terrain from being destroyed by Enderman and prevent a large
 
 After the entity passes through the gateway, the gateway does not loading chunks
 
+**Note: In `1.21.2+`, ender pearls are an exception. To prevent something terrible from happening**
+
 *So your Void trade can work at 1.21+ too : )*
 
 - Categories: ```MC Tweaks```
