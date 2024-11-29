@@ -122,10 +122,9 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 
 `MC >= 1.20.5`
 
-我不能失去我的印钞机
+使用mc1.20.1的袭击机制
 
 *注: 在`mc1.20.5 mc1.20.6`中它是隐藏规则, 并且需开启1.21快照此规则才会工作*
-
 - 分类: ```MC修改```
 - 类型: ```布尔值```
 - 默认值: ```false```
@@ -178,8 +177,8 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 
 ### CCA网络协议(CCANetworkProtocol)
 
-> [!Caution]
-> CrystalCarpetAddition1.1.x生成的配置json与1.0.x的不兼容, 请删除后重新配置!
+> 于v1.10.0中移除, 现在它单独作为一个Mod维护
+> *[ModChecker](https://github.com/Crystal0404/ModChecker)*
 
 用于实现获取客户端模组信息和一些其他功能(例如mod黑名单), 它有一个接口给其他模组使用. [使用文档](https://crystal0404.github.io/cca-doc/en/docs/CCANetworkProtocol)
 

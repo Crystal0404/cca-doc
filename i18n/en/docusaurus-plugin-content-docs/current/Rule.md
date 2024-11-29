@@ -124,7 +124,7 @@ Makes bats no longer spawn.
 
 `MC >= 1.20.5`
 
-I can't afford to lose my money printing machine
+Raid using mc1.20.1
 
 *Note: In `mc1.20.5 mc1.20.6` it is a hidden rule, and 1.21 snapshot is enabled for this rule to work*
 
@@ -179,6 +179,8 @@ Specifies the color of the ShulkerBox in effect for the Shulker Box Power Output
 ## Network
 
 ### CCANetworkProtocol
+
+> Removed in v1.10.0
 
 Used to get client mod information and some other features (Mod blacklist), it has an interface for other mods to use. [Use documentation](https://crystal0404.github.io/cca-doc/en/docs/CCANetworkProtocol)
 
