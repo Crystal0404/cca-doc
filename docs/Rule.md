@@ -9,9 +9,7 @@ sidebar_position: 1
 
 ## MC调整
 
-### 铁砧可以碾碎掉落物(AnvilCanCrushItemEntities)
-
-`MC >= 1.20`
+### 铁砧可以碾碎掉落物(AnvilCanCrushItemEntities)<sup>`MC >= 1.20`</sup>
 
 允许铁砧从高处掉落时可以碾碎掉落物
 
@@ -21,15 +19,11 @@ sidebar_position: 1
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
 
-### C珍珠加载(CEnderPearlChunkLoading)
-
-`MC < 1.20.4`
+### C珍珠加载(CEnderPearlChunkLoading)<sup>`MC < 1.20.4`</sup>
 
 移植并修复自[Carpet-Extra](https://github.com/gnembon/carpet-extra)的enderPearlChunkLoading
 
 C没有特殊含义, 只为和Carpet-Extra的功能作区分
-
-**1.20.4的[Carpet-Extra](https://github.com/gnembon/carpet-extra)应用了我的修复, 为了防止冲突, 我在1.20.4及以后的版本中移除了它**
 
 - 分类: ```MC修改```
 - 类型: ```布尔值```
@@ -37,9 +31,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
 
-### 比较器忽略来自下方的状态更新(ComparatorIgnoresStateUpdatesFromBelow)
-
-`MC >= 1.20.4`
+### 比较器忽略来自下方的状态更新(ComparatorIgnoresStateUpdatesFromBelow)<sup>`MC >= 1.20.4`</sup>
 
 开启此选项后, 比较器会忽略来自下方的状态更新(意味着开启活板门不会破坏比较器)
 
@@ -49,9 +41,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
 
-### 末影龙部件可使用末地传送门(EnderDragonPartCanUseEndPortal)
-
-`MC >= 1.21`
+### 末影龙部件可使用末地传送门(EnderDragonPartCanUseEndPortal)<sup>`MC >= 1.21`</sup>
 
 允许末影龙的部件通过末地传送门
 
@@ -71,9 +61,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
 
-### 折跃门不会加载区块(GatewayCannotLoadingChunks)
-
-`MC >= 1.21`
+### 折跃门不会加载区块(GatewayCannotLoadingChunks)<sup>`MC >= 1.21`</sup>
 
 在实体穿越折跃门后, 折跃门不会加载区块(在`1.21.2+`, 末影珍珠是个例外. 为了防止发生一些可怕的事情)
 
@@ -89,8 +77,6 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 
 重新引入1.16.5物品栏之间交换的逻辑, 使得[物品分身](https://www.bilibili.com/video/BV1cL4y1B75R)这项技术可以使用
 
-注: 由于Minecraft项目结构的改变, 视频中代码演示仅作参考, CCA实际实现可能略有不同
-
 - 分类: ```MC修改```
 - 类型: ```布尔值```
 - 默认值: ```false```
@@ -100,7 +86,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 ### 魔法盒子(MagicBox)
 控制是否可以使用[强转抑制器](https://www.bilibili.com/read/cv24323749)
 
-是的, 它是CCA的第一个功能!
+*是的, 它是CCA的第一个功能!*
 
 - 分类: ```MC修改```
 - 类型: ```布尔值```
@@ -118,9 +104,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
 
-### 重新引入旧版袭击(ReIntroduceOldVersionRaid)
-
-`MC >= 1.20.5`
+### 重新引入旧版袭击(ReIntroduceOldVersionRaid)<sup>``MC >= 1.20.5``</sup>
 
 使用mc1.20.1的袭击机制
 
@@ -132,9 +116,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 验证器: 严格(不区分大小写)
 
 
-### 重新引入旧版女巫战利品表(ReIntroduceOldVersionWitchLootTable)
-
-`MC >= 1.21`
+### 重新引入旧版女巫战利品表(ReIntroduceOldVersionWitchLootTable)<sup>``MC >= 1.21``</sup>
 
 使女巫死亡后掉落的战利品恢复到与Minecraft-1.21版本之前一致
 

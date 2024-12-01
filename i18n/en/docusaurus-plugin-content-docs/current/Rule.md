@@ -9,9 +9,7 @@ sidebar_position: 1
 
 ## MC Tweaks
 
-### AnvilCanCrushItemEntities
-
-`MC >= 1.20`
+### AnvilCanCrushItemEntities<sup>`MC >= 1.20`</sup>
 
 Allows anvil dropped from a height to crush items
 
@@ -21,9 +19,7 @@ Allows anvil dropped from a height to crush items
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### CEnderPearlChunkLoading
-
-`MC < 1.20.4`
+### CEnderPearlChunkLoading<sup>`MC < 1.20.4`</sup>
 
 The enderPearlChunkLoading function of [Carpet-Extra](https://github.com/gnembon/carpet-extra) is not working, it is an alternative
 
@@ -37,9 +33,7 @@ C has no special meaning, only for differentiation
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### ComparatorIgnoresStateUpdatesFromBelow
-
-`MC >= 1.20.4`
+### ComparatorIgnoresStateUpdatesFromBelow<sup>`MC >= 1.20.4`</sup>
 
 When this option is turned on, the comparator ignores state updates from below
 (Means that opening the trap gate will not destroy the comparator)
@@ -50,9 +44,7 @@ When this option is turned on, the comparator ignores state updates from below
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### EnderDragonPartCanUseEndPortal
-
-`MC >= 1.21`
+### EnderDragonPartCanUseEndPortal<sup>`MC >= 1.21`</sup>
 
 Allow ender dragon part to pass through end portal
 
@@ -72,8 +64,7 @@ Protect your nether terrain from being destroyed by Enderman and prevent a large
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### GatewayCannotLoadingChunks
-`MC >= 1.21`
+### GatewayCannotLoadingChunks<sup>`MC >= 1.21`</sup>
 
 After the entity passes through the gateway, the gateway does not loading chunks
 
@@ -120,9 +111,7 @@ Makes bats no longer spawn.
 - Validators: Strict(Case-insensitive)
 
 
-### ReIntroduceOldVersionRaid
-
-`MC >= 1.20.5`
+### ReIntroduceOldVersionRaid<sup>``MC >= 1.20.5``</sup>
 
 Raid using mc1.20.1
 
@@ -134,9 +123,7 @@ Raid using mc1.20.1
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### ReIntroduceOldVersionWitchLootTable
-
-`MC >= 1.21`
+### ReIntroduceOldVersionWitchLootTable<sup>``MC >= 1.21``</sup>
 
 Restored loot dropped after a witch's death to be the same as before Minecraft-1.21
 

@@ -17,6 +17,6 @@ The usage method is basically the same as Carpet,Just replace```/carpet```with``
 
 **Note: Before v1.10.0, the CCANetworkProtocol rule used `fabric-api` to communicate over the network, so `fabric-api` 
 needed to be installed in versions earlier than 1.10.0, but this rule was removed in v1.10.0, so `fabric-api` is no 
-longer needed in versions later than v1.10.0**
+needed in versions later than v1.10.0**
 
 *[Click here to go to the Modrinth download page of fabric-api](https://modrinth.com/mod/fabric-api)*
