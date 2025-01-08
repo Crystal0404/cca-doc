@@ -125,6 +125,28 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 默认值: ```false```
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
+
+
+### 移除村民交易距离限制(RemoveVillagerTradeDistanceLimit)<sup>``MC >= 1.21.4``</sup>
+
+当玩家距离村民过远时, 村民交易界面不会因此关闭
+
+- 分类: ```MC修改```
+- 类型: ```布尔值```
+- 默认值: ```false```
+- 参考值: ```flase``` ```true```
+- 验证器: 严格(不区分大小写)
+
+
+### 可堆叠潜影盒增强(StackableShulkerBoxesEnhancement)<sup>``MC >= 1.20.5``</sup>
+
+仅玩家才能使潜影盒堆叠, 在开启Carpet的"stackableShulkerBoxes"规则后此规则才会生效
+
+- 分类: ```MC修改```
+- 类型: ```布尔值```
+- 默认值: ```false```
+- 参考值: ```flase``` ```true```
+- 验证器: 严格(不区分大小写)
 ---
 
 ## 创造工具

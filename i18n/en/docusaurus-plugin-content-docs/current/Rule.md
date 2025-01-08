@@ -133,6 +133,28 @@ It is recommended to use it in conjunction with the "ReIntroduceOldVersionRaid"
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
+
+### RemoveVillagerTradeDistanceLimit<sup>``MC >= 1.21.4``</sup>
+
+When the player is too far away from villager, the villager trading screen will not be closed
+
+- Categories: ```MC Tweaks```
+- Type: ```Boolean```
+- Default value: ```false```
+- Options: ```flase``` ```true```
+- Validators: Strict(Case-insensitive)
+
+
+### StackableShulkerBoxesEnhancement<sup>``MC >= 1.20.5``</sup>
+
+Only the player can make ShulkerBoxes stack, This rule only work after the "stackableShulkerBoxes" rule of Carpet is enabled
+
+- Categories: ```MC Tweaks```
+- Type: ```Boolean```
+- Default value: ```false```
+- Options: ```flase``` ```true```
+- Validators: Strict(Case-insensitive)
+
 ---
 
 ## Creative Tools
