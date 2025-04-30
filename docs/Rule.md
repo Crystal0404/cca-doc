@@ -81,7 +81,7 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
 
-### 魔法盒子(MagicBox)
+### 魔法盒子(MagicBox)<sup>`MC <= 1.21.5`</sup>
 控制是否可以使用[强转抑制器](https://www.bilibili.com/read/cv24323749)
 
 *是的, 它是CCA的第一个功能!*

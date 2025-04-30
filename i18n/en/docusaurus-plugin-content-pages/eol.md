@@ -4,14 +4,7 @@
 
 ## Current supported versions
 
-✔️ Currently, the following Minecraft versions are actively supported with new features and bug fixes
-
-| Minecraft Version | Support Until                      |
-|-------------------|------------------------------------|
-| 1.20.5            | ✔️ Long Term Support               |
-| 1.20.6            | ✔️ Long Term Support               |
-| 1.21 - 1.21.1     | 🕒 When Minecraft 1.22 is released |
-| 1.21.2 - 1.21.4   | ✔️ To be determined                |
+✔️ Currently, only the latest Minecraft version is supported, and the old version only fixes bugs
 
 ## End-of-life versions
 

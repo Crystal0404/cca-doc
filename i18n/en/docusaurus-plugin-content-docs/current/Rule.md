@@ -89,7 +89,7 @@ Note: I don't know how to translate this sentence. If you have any questions, pl
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
-### MagicBox
+### MagicBox`MC <= 1.21.5`</sup>
 Control whether [CastSuppressor(CCESuppressor)](https://www.bilibili.com/read/cv24323749) is available
 
 - Categories: ```MC Tweaks```
