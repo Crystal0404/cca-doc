@@ -1,35 +1,41 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Translate, {translate} from "@docusaurus/Translate";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: translate({id: 'homepage.feature.carpet.message', message: 'Carpet拓展'}),
+    Svg: require('@site/static/img/more.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          <Translate id="homepage.feature.carpet.description">
+              与Fabric Carpet一起工作,
+              提供额外有趣的Carpet风格规则
+          </Translate>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: translate({id: 'homepage.feature.vanilla.message', message: '原版'}),
+    Svg: require('@site/static/img/vanilla.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          <Translate id="homepage.feature.vanilla.description">
+              Crystal Carpet Addition 不会自行修改游戏的原版机制,
+              除非用户显式配置启动了某些特性. 让 Minecraft 保持原版
+          </Translate>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: translate({id: 'homepage.feature.compatible.message', message: '兼容'}),
+    Svg: require('@site/static/img/puzzle.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          <Translate id="homepage.feature.compatible.description">
+              几乎不会与其它mod产生冲突
+          </Translate>
       </>
     ),
   },
