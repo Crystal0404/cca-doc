@@ -99,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'Modrinth',
-                to: 'https://github.com/Crystal0404/CrystalCarpetAddition/releases',
+                to: 'https://modrinth.com/mod/crystalcarpetaddition',
               },
               {
                 label: 'Github',
