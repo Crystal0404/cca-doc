@@ -180,7 +180,29 @@ Specifies the color of the ShulkerBox in effect for the Shulker Box Power Output
 - Default value: ```pink```
 - Options: It's too much, I'm too lazy to write XD
 - Validators: Strict(Case-insensitive)
+---
 
+## Pearl
+
+### RemoveHighSpeedPearls<sup>``MC >= 1.21.2``</sup>
+
+Remove pearls moving at high speed for a long time
+
+- Categories: ```Pearl```
+- Type: ```Boolean```
+- Default value: ```false```
+- Options: ```flase``` ```true```
+- Validators: Strict(Case-insensitive)
+
+### RemoveHighSpeedPearlsTime<sup>``MC >= 1.21.2``</sup>
+
+Set the survival time of high-speed moving pearls
+
+- Categories: ```Pearl```
+- Type: ```Integer```
+- Default value: ```40```
+- Options: ```40```
+- Validators: Strict
 ---
 
 ## Network
