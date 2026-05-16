@@ -102,6 +102,16 @@ C没有特殊含义, 只为和Carpet-Extra的功能作区分
 - 参考值: ```flase``` ```true```
 - 验证器: 严格(不区分大小写)
 
+### 禁用蘑菇在下界自然生长(NoMushroomRandomTickInNether)<sup>``MC >= 26.1``</sup>
+
+让蘑菇不能在下界自然生长, 防止你在下界长时间挂机后蘑菇泛滥成灾
+
+- 分类: ```MC修改```
+- 类型: ```布尔值```
+- 默认值: ```false```
+- 参考值: ```flase``` ```true```
+- 验证器: 严格(不区分大小写)
+
 ### 重新引入旧版袭击(ReIntroduceOldVersionRaid)<sup>``MC >= 1.20.5``</sup>
 
 使用mc1.20.1的袭击机制

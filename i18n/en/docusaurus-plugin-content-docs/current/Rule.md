@@ -108,6 +108,15 @@ Makes bats no longer spawn.
 - Options: ```flase``` ```true```
 - Validators: Strict(Case-insensitive)
 
+### NoMushroomRandomTickInNether<sup>``MC >= 26.1``</sup>
+
+Do not let mushrooms grow naturally in the Nether
+
+- Categories: ```MC Tweaks```
+- Type: ```Boolean```
+- Default value: ```false```
+- Options: ```flase``` ```true```
+- Validators: Strict(Case-insensitive)
 
 ### ReIntroduceOldVersionRaid<sup>``MC >= 1.20.5``</sup>
 
